@@ -1,4 +1,4 @@
-![snake gif](https://github.com/PixelByte001/PixelByte001/blob/output/header.svg)
+![](https://github.com/PixelByte001/PixelByte001/blob/output/heading.svg)
 
 <!--
 **PIxelByte001/PixelByte001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
