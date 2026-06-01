@@ -82,7 +82,7 @@ body {
 </style>
 
 
-<div class="username glowWrapper usernameGradient" data-text="Data Science" style="font-family:'Arial';">
+<div class="username glowWrapper usernameGradient" data-text="Data Science" style="font-family:'Arial';left:-2.5px">
   Data Science
 </div>
 </div>
