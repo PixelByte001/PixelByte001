@@ -9,14 +9,6 @@
 }
 
 /* Page styling */
-body {
-  background: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: sans-serif;
-}
 
 /* Base username */
 .username {
