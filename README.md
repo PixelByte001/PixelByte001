@@ -1,3 +1,4 @@
+<html>
 <style>
 :root {
   --custom-gradient-color-1: #9e6bff;
@@ -70,9 +71,12 @@
 }
 </style>
 
+<body>
 <div class="username glowWrapper usernameGradient" data-text="Data Science" style="color:red"">
   Data Science
 </div>
+</body>
+</html>
 
 ![snake gif](https://github.com/PixelByte001/PixelByte001/blob/output/github-contribution-grid-snake.svg)
 
