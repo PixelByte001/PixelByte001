@@ -72,7 +72,7 @@
 </style>
 
 <body>
-<div class="username glowWrapper usernameGradient" data-text="Data Science" style="color:red"">
+<div class="username glowWrapper usernameGradient" data-text="Data Science" style="color:red">
   Data Science
 </div>
 </body>
