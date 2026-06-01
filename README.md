@@ -1,5 +1,5 @@
 ![](https://github.com/PixelByte001/PixelByte001/blob/output/heading.svg)
-An enthusiast in data science looking to solve problems using machine learning and AI
+An enthusiast in data science looking to solve problems using machine learning and AI and make a change
 <!--
 **PIxelByte001/PixelByte001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
