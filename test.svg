@@ -1,38 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240">
-  <style>
-    .box {
-      fill: black;
-      stroke: transparent;
-      stroke-width: 3;
-      transition: stroke 0.3s ease, stroke-width 0.3s ease;
-      cursor: pointer;
-    }
-    .box:hover {
-      stroke: #9333ea;
-      stroke-width: 4;
-    }
-    .heading {
-      fill: white;
-      font: bold 18px Arial, sans-serif;
-    }
-    .paragraph {
-      fill: white;
-      font: 12px Arial, sans-serif;
-    }
-  </style>
-
   <defs>
     <clipPath id="rounded-cover">
       <path d="M21 2 H299 Q318 2 318 21 V142 H2 V21 Q2 2 21 2 Z" />
     </clipPath>
   </defs>
 
-  <rect class="box" x="1" y="1" width="318" height="238" rx="20" />
+  <rect x="1" y="1" width="318" height="238" rx="20" fill="black" stroke="transparent" stroke-width="3" style="cursor: pointer;">
+    <animate attributeName="stroke" values="transparent;#9333ea;transparent" dur="0.3s" begin="mouseover" fill="freeze" />
+    <animate attributeName="stroke" values="#9333ea;transparent" dur="0.3s" begin="mouseout" fill="freeze" />
+  </rect>
 
   
 
-  <text class="heading" x="20" y="175">Heading goes here</text>
-  <text class="paragraph" x="20" y="198">
+  <text x="20" y="175" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="18">Heading goes here</text>
+  <text x="20" y="198" fill="white" font-family="Arial, sans-serif" font-size="12">
     <tspan x="20" dy="0">This is a small paragraph describing</tspan>
     <tspan x="20" dy="16">the heading in more detail.</tspan>
   </text>
