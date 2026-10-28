@@ -1,0 +1,46 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="320"
+  height="240"
+  viewBox="0 0 320 240"
+>
+  <style>
+    .box {
+      fill: black;
+      stroke: white;
+      stroke-width: 2;
+    }
+    .heading {
+      fill: white;
+      font: bold 18px Arial, sans-serif;
+    }
+    .paragraph {
+      fill: white;
+      font: 12px Arial, sans-serif;
+    }
+  </style>
+
+  <defs>
+    <clipPath id="rounded-cover">
+      <path d="M21 2 H299 Q318 2 318 21 V142 H2 V21 Q2 2 21 2 Z" />
+    </clipPath>
+  </defs>
+
+  <rect class="box" x="1" y="1" width="318" height="238" rx="20" />
+
+  <image
+    href="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=640&auto=format&fit=crop"
+    x="2"
+    y="2"
+    width="316"
+    height="140"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#rounded-cover)"
+  />
+
+  <text class="heading" x="20" y="175">Heading goes here</text>
+  <text class="paragraph" x="20" y="198">
+    <tspan x="20" dy="0">This is a small paragraph describing</tspan>
+    <tspan x="20" dy="16">the heading in more detail.</tspan>
+  </text>
+</svg>
