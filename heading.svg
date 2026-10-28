@@ -32,7 +32,7 @@ body {
 /* Gradient text */
 .usernameGradient {
   background: linear-gradient(
-    -30deg,
+    0deg,
     var(--custom-gradient-color-1),
     var(--custom-gradient-color-2),
     var(--custom-gradient-color-3)/*,
